@@ -1,6 +1,6 @@
 {
   "name": "fake1-users",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "is a simple package to manage a fakeusersArray",
   "main": "index.js",
   "scripts": {

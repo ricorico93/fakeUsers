@@ -15,8 +15,13 @@ var users = [
      surname: 'Pulvirenti'
  }
 ];
-var backup=JSON.parse(JSON.stringify(users));
-exports.getAll=function(){
+
+var clone=function(obj){
+  return JSON.parse(JSON.stringify(users));
+}
+var backup=clone(users);
+
+exports.getAll=function(obj){
   return users;
 }
 
@@ -57,7 +62,8 @@ exports.modifyUser = function(id,newUser){
 }
 
 exports.reset=function(){
-  user=JSON.parse(JSON.stringify(backup));
+  user= clone (backup);
+
 }
 
 console.log( this.getUserById(1));
