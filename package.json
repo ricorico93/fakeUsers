@@ -1,0 +1,17 @@
+{
+  "name": "fake1-users",
+  "version": "0.0.0",
+  "description": "is a simple package to manage a fakeusersArray",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fake",
+    "users",
+    "user",
+    "fake1"
+  ],
+  "author": "enry93 <enrico.valedis@gmail.com>",
+  "license": "MIT"
+}
